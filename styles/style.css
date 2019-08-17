@@ -70,6 +70,19 @@ a:hover {
 	border-right: none;
 }
 
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ul li {
+	margin-bottom: 1rem;
+}
+
+i.flaticon::before {
+	margin-left: 0;
+}
+
 /*component end*/
 
 /*Header*/
@@ -418,7 +431,52 @@ section#schedule {
 /*Facilities End*/
 
 /*Maps*/
-.maps .row .col-md-12 {
+.maps .container-fluid {
 	padding: 0;
 }
 /*Maps End*/
+
+/*Footer*/
+.footer-image {
+	background-image: url('../images/jhony.jpg');
+	background-size: cover;
+}
+
+footer {
+	padding-top: 3rem;
+	background-color: rgba(0,0,0,.7);
+}
+
+hr {
+	background-color: #cacaca;
+}
+
+footer h5 {
+	color: #FF8303;
+}
+
+footer i.flaticon {
+	color: #FF8303;
+}
+
+footer .col-md-12 p {
+	font-weight: 500;
+}
+
+footer .form-control {
+	background-color: transparent;
+	font-style: italic;
+}
+
+footer .form-control:focus {
+	background-color: transparent;
+}
+
+footer .nav .nav-link {
+	color: #FF8303;
+}
+
+footer .nav .nav-link:hover {
+	color: #FE6E00!important;
+}
+/*Footer End*/
