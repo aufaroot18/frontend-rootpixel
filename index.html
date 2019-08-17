@@ -9,6 +9,10 @@
 	<!-- Title -->
 	<title>Frontend Rootpixel</title>
 
+	<!-- Font Awesome -->
+	<!-- Icon -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+
 	<!-- Bootstap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,43 +20,47 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<!-- Navbar -->
-	<div class="container">
+	<!-- Header -->
+	<header>
+		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="">Bioskops</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-			  <div class="navbar-nav ml-auto">
-			  	<form action="#" class="form-inline">
-			  		<div class="input-group">
-			  			<input class="form-control" type="search" placeholder="Search Movies">
-			  			<div class="input-group-append">
-			  				<span class="input-group-text">@</span>
-			  			</div>
-			  		</div>
-			  	</form>
-			    <a class="nav-item nav-link" href="#">HOMEPAGE</a>
-			    <button class="btn btn-outline-primary rounded-pill">Get Ticket</button>
-			  </div>
+			<div class="container">
+				<a class="navbar-brand" href="">Bioskops</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <div class="navbar-nav ml-auto">
+				  	<form action="#" class="form-inline mr-3">
+				  		<div class="input-group">
+				  			<input class="form-control" type="search" placeholder="Search movies...">
+				  			<div class="input-group-append">
+				  				<span class="input-group-text"><i class="fas fa-search"></i></span>
+				  			</div>
+				  		</div>
+				  	</form>
+				    <a class="nav-item nav-link mr-3" href="#">HOMEPAGE</a>
+				    <button class="btn btn-outline-primary rounded-pill">GET TICKET</button>
+				  </div>
+				</div>
 			</div>
 		</nav>
-	</div>
-	<!-- Navbar End -->
+		<!-- Navbar End -->
 
-	<!-- Jumbotron -->
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<p>Action | Adventure | Mystery</p>
-			<h1>Assasins Creed: Revellation</h1>
-			<div class="btn-group" role="group">
-				<button type="button" class="btn btn-outline-primary">Watch Trailer</button>
-				<button type="button" class="btn btn-outline-primary">Buy Ticket</button>
+		<!-- Jumbotron -->
+		<div class="jumbotron jumbotron-fluid bg-transparent">
+			<div class="container">
+				<p>Action | Adventure | Mystery</p>
+				<h1>Assasins Creed: Revellation</h1>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-outline-primary">Watch Trailer</button>
+					<button type="button" class="btn btn-outline-primary">Buy Ticket</button>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- Jumbotron End -->
+		<!-- Jumbotron End -->
+	</header>
+	<!-- Header End -->
 
 	<!-- Main -->
 	<main>
