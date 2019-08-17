@@ -438,13 +438,13 @@ section#schedule {
 
 /*Footer*/
 .footer-image {
-	background-image: url('../images/jhony.jpg');
+	background-image: url('../images/assasins.jpg');
 	background-size: cover;
 }
 
 footer {
 	padding-top: 3rem;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,0.9);
 }
 
 hr {
