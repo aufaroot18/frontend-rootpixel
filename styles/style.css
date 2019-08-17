@@ -6,26 +6,70 @@
 body {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
+	color: #cacaca;
 }
 
 /*component*/
+
 a {
 	color: #cacaca;
 
 }
 
 a:hover {
-	color: #cacaca;
+	color: #cacaca!important;
+	text-decoration: none;
 }
+
 .btn-outline-primary {
 	color: #FF8303;
 	border-color: #FF8303;
+	border: 2px solid;
 }
 .btn-outline-primary:hover {
 	color: #fff;
 	background-color: #FF8303;
 	border-color: #FF8303;
 }
+
+.btn-primary {
+	color: #fff;
+	background-color: #FF8303;
+	border-color: #FF8303;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #FE6E00;
+	border-color: #FE6E00;
+}
+
+.text-primary {
+	color: #FF8303!important;
+}
+
+.nav {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #cacaca;
+	margin-bottom: 1rem;
+	font-size: 0.9rem;
+}
+
+.nav .nav-link {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 1rem;
+	border-right: 1px solid #cacaca;
+}
+
+.nav .nav-link:first-child {
+	padding-left: 0;
+}
+
+.nav .nav-link:last-child {
+	border-right: none;
+}
+
 /*component end*/
 
 /*Header*/
@@ -97,29 +141,7 @@ header {
 /*Jumbotron*/
 div.jumbotron {
 	margin-top: 8rem;
-}
-
-div.jumbotron .nav {
-	text-transform: uppercase;
-	font-weight: 500;
-	color: #cacaca;
-	margin-bottom: 1rem;
-	font-size: 0.9rem;
-}
-
-div.jumbotron .nav .nav-link {
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-right: 1rem;
-	border-right: 1px solid #cacaca;
-}
-
-div.jumbotron .nav .nav-link:first-child {
-	padding-left: 0;
-}
-
-div.jumbotron .nav .nav-link:last-child {
-	border-right: none;
+	margin-bottom: 0;
 }
 
 div.jumbotron h1 {
@@ -154,3 +176,170 @@ div.jumbotron .btn-group .btn-outline-primary:last-child {
 	border-bottom-right-radius: 50rem;
 }
 /*Jumbotron End*/
+
+/*Schedule*/
+section#schedule {
+	background-color: rgba(0,0,0,.1);
+	padding-bottom: 5rem;
+}
+
+/*Schedule Card*/
+.schedule-card .container {
+	margin-top: -5rem;
+	background-color: #fff;
+	padding: 2rem 3rem 3rem;
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
+.schedule-card .col-md-8 h3 {
+	color: #FF8303;
+	font-weight: 300;
+}
+
+.schedule-card .col-md-4 p {
+	color: #FF8303;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+.schedule-card .col-md-4 i {
+	margin-right: 0.5rem;
+}
+
+.schedule-card .col-md-3 .card {
+	height: 350px;
+	border: none;
+}
+
+.schedule-card .col-md-3 .card img {
+	height: 350px;
+	background-size: cover;
+}
+
+.schedule-card .col-md-3 .card .card-img-overlay {
+	background-color: rgba(0,0,0,.4);
+}
+
+.schedule-card .card .card-text {
+	color: #FF8303;
+}
+/*Schedule Card End*/
+
+/*Schedule List*/
+.schedule-list .container {
+	margin-top: 5rem;
+	background-color: #fff;
+	padding: 2rem 3rem 3rem;
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
+.schedule-list .col-md-8, .schedule-list .col-md-4 {
+	margin-top: -3rem;
+}
+
+.schedule-list .col-md-8 button {
+	padding: 0.7rem 2rem;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}
+
+.schedule-list .col-md-4 button {
+	padding: 0.5rem 2rem;
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	background-color: #fff;
+	color: #FF8303;
+}
+
+.schedule-list .col-md-4 button:hover {
+	background-color: #FF8303;
+	color: #fff;
+}
+
+.schedule-list .table {
+	font-weight: 500;
+	color: #cacaca;
+}
+
+/*Schedule List End*/
+
+/*Schedule End*/
+
+/*Synopsis*/
+.synopsis-image {
+	background-image: url('../images/synopsis.jpg');
+	background-size: cover;
+}
+
+.synopsis-overview {
+	background-color: rgba(0,0,0,.85);
+}
+
+.synopsis-overview .container {
+	padding: 5rem 3rem 3rem;
+}
+
+.synopsis-overview .col-md-7 h5 {
+	color: #FF8303;
+}
+
+.synopsis-overview .col-md-7 .nav {
+	font-size: 0.8rem;
+}
+
+.synopsis-overview .col-md-5 span {
+	color: #FF8303;	
+	font-weight: 500;
+}
+
+.synopsis-overview .col-md-12 a:hover {
+	text-decoration: none;
+	color: #FF8303!important;
+}
+
+.synopsis-overview .col-md-6 p {
+	font-weight: 500;
+}
+
+.synopsis-overview .col-md-6 i {
+	color: #FF8303;
+}
+
+.synopsis-overview .col-md-6 i::before {
+	margin-left: 0;
+}
+
+/*Synopsis Slider*/
+.synopsis-slider {
+	background-color: rgba(0,0,0,.95);
+}
+
+.synopsis-slider .container {
+	padding: 5rem 3rem 7rem;
+}
+
+.synopsis-slider .col-md .card {
+	height: 250px;
+	border: none;
+}
+
+.synopsis-slider .col-md .card img {
+	height: 250px;
+	background-size: cover;
+}
+
+
+/*Synopsis Slider End*/
+
+/*Synopsis End*/
