@@ -308,6 +308,17 @@ section#schedule {
 	color: #FF8303!important;
 }
 
+.synopsis-overview .col-md-7.video {
+	width: 550px;
+}
+
+.synopsis-overview .col-md-7.video img {
+	border: 2px solid #FF8303;
+	border-radius: 0.5rem;
+	background-size: cover;
+	width: 550px;
+}
+
 .synopsis-overview .col-md-6 p {
 	font-weight: 500;
 }
@@ -343,3 +354,71 @@ section#schedule {
 /*Synopsis Slider End*/
 
 /*Synopsis End*/
+
+/*Facilities*/
+.facilities-image {
+	background-image: url('../images/jhony.jpg');
+	background-size: cover;
+}
+
+.facilities {
+	background-color: rgba(253, 253, 253, 0.9);
+	padding-bottom: 6rem;
+}
+
+.facilities .col-md-8 {
+	margin-top: -2rem;
+}
+
+.facilities .col-md-8 .btn-primary {
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 1rem 3rem;
+	border-radius: 1rem;
+	color: #FF8303;
+	background-color: #fff;
+	border: 1px solid;
+}
+
+.facilities .col-md-4 {
+	margin-top: -1rem;
+}
+
+.facilities .flaticon {
+	color: #FF8303;
+	font-size: 1.5rem;
+	background-color: #fff;
+	padding: 0.5rem 0.7rem;
+	border: 2px solid #FF8303;
+	
+}
+
+.facilities .flaticon::before {
+	margin-left: 0;
+	font-size: 1.5rem;
+}
+
+.facilities .card {
+	border-radius: 1rem;
+}
+
+.facilities .card h5 {
+	color: #FF8303;
+	font-size: 1rem;
+}
+
+.facilities .card .col-md-2 .flaticon {
+	padding: 0.5rem 0.8rem;
+}
+
+.facilities .card .col-md-2 {
+	margin-left: -1.5rem;
+}
+
+/*Facilities End*/
+
+/*Maps*/
+.maps .row .col-md-12 {
+	padding: 0;
+}
+/*Maps End*/
