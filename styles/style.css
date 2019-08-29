@@ -346,15 +346,15 @@ section#schedule {
 	padding: 5rem 3rem 3rem;
 }
 
-.synopsis-overview .col-md-7 h5 {
+.synopsis-overview .col-lg-7 h5 {
 	color: #FF8303;
 }
 
-.synopsis-overview .col-md-7 .nav {
+.synopsis-overview .col-lg-7 .nav {
 	font-size: 0.8rem;
 }
 
-.synopsis-overview .col-md-5 span {
+.synopsis-overview .col-lg-5 span {
 	color: #FF8303;	
 	font-weight: 500;
 }
@@ -364,26 +364,26 @@ section#schedule {
 	color: #FF8303!important;
 }
 
-.synopsis-overview .col-md-7.video {
+.synopsis-overview .col-lg-7.video {
 	width: 550px;
 }
 
-.synopsis-overview .col-md-7.video img {
+.synopsis-overview .col-lg-7.video img {
 	border: 2px solid #FF8303;
 	border-radius: 0.5rem;
 	background-size: cover;
 	width: 550px;
 }
 
-.synopsis-overview .col-md-6 p {
+.synopsis-overview .col-sm-6 p {
 	font-weight: 500;
 }
 
-.synopsis-overview .col-md-6 i {
+.synopsis-overview .col-sm-6 i {
 	color: #FF8303;
 }
 
-.synopsis-overview .col-md-6 i::before {
+.synopsis-overview .col-sm-6 i::before {
 	margin-left: 0;
 }
 
@@ -597,5 +597,15 @@ footer .nav .nav-link:hover {
 	}
 	/* ==========================================================================
 	   Schedule End
+	   ========================================================================== */
+
+	/* ==========================================================================
+	   Synopsis
+	   ========================================================================== */
+	.synopsis-overview .col-lg-7.video img {
+		margin-bottom: 2rem;
+	}
+	/* ==========================================================================
+	   Synopsis End
 	   ========================================================================== */
 }
