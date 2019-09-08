@@ -395,12 +395,12 @@ section#schedule {
 	padding: 5rem 3rem 7rem;
 }
 
-.synopsis-slider .col-md .card {
+.synopsis-slider .col-lg .card {
 	height: 250px;
 	border: none;
 }
 
-.synopsis-slider .col-md .card img {
+.synopsis-slider .col-lg .card img {
 	height: 250px;
 	background-size: cover;
 }
@@ -541,6 +541,10 @@ footer .nav .nav-link:hover {
    ========================================================================== */
 
 @media (max-width: 768px) {
+	html {
+		font-size: 14px;
+	}
+	
 	/* ==========================================================================
 	   Navbar
 	   ========================================================================== */
@@ -604,6 +608,20 @@ footer .nav .nav-link:hover {
 	   ========================================================================== */
 	.synopsis-overview .col-lg-7.video img {
 		margin-bottom: 2rem;
+	}
+
+	.synopsis-slider .col-lg {
+		width: 100%;
+	}
+
+	.synopsis-slider .col-lg .card {
+		width: 100%;
+		height: auto;
+	}
+
+	.synopsis-slider .col-lg .card img {
+		width: 100%;
+		height: auto;
 	}
 	/* ==========================================================================
 	   Synopsis End
