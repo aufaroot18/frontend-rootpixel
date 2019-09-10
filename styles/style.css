@@ -462,11 +462,11 @@ section#schedule {
 	font-size: 1rem;
 }
 
-.facilities .card .col-md-2 .flaticon {
+.facilities .card .col-2 .flaticon {
 	padding: 0.5rem 0.8rem;
 }
 
-.facilities .card .col-md-2 {
+.facilities .card .col-2 {
 	margin-left: -1.5rem;
 }
 /* ==========================================================================
@@ -625,5 +625,37 @@ footer .nav .nav-link:hover {
 	}
 	/* ==========================================================================
 	   Synopsis End
+	   ========================================================================== */
+
+	/* ==========================================================================
+	   Facilities
+	   ========================================================================== */
+
+	.facilities {
+		padding-bottom: 1rem;
+	}
+
+	.facilities .col-md-8 .btn-primary {
+		font-size: 1rem;
+		font-weight: 500;
+		padding: 1rem;
+		border-radius: 1rem;
+		color: #FF8303;
+		background-color: #fff;
+		border: 1px solid;
+	}
+
+	.facilities .col-md-4 {
+		margin-top: -3rem;
+	}
+
+	.facilities .card {
+		margin: 1rem 2rem;
+	}
+
+
+
+	/* ==========================================================================
+	   Facilities End
 	   ========================================================================== */
 }
