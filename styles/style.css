@@ -599,6 +599,21 @@ footer .nav .nav-link:hover {
 		width: 100%;
 		height: 100%;
 	}
+
+	.schedule-list .col-md-8 button, .schedule-list .col-md-4 button {
+		padding: 0.5rem;
+		font-size: 0.7rem;
+	}
+
+	.schedule-list .table {
+		font-weight: 500;
+		color: #cacaca;
+		font-size: 0.7rem;
+	}
+
+	.schedule-list .col-md-12 {
+		padding: 0;
+	}
 	/* ==========================================================================
 	   Schedule End
 	   ========================================================================== */
