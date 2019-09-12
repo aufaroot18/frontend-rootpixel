@@ -1,5 +1,5 @@
 # frontend-rootpixel
-Frontend Application for test in Rootpixel
+Frontend Website for test in Rootpixel
 
 ## Demo
 Demo website: [Frontend Rootpixel](https://aufaroot18.github.io/frontend-rootpixel/).
